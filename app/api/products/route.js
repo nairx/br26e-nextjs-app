@@ -25,8 +25,8 @@ const products = [
     }
 ]
 
-import { corsHeaders } from "@/app/corsHeaders"
+// import { corsHeaders } from "@/app/corsHeaders"
 
 export async function GET() {
-    return Response.json(products,corsHeaders)
+    return Response.json(products)
 }
